@@ -34,6 +34,9 @@ require('binds') -- Special bind on Lua
 require('stl') -- Special styles on Lua
 require('basic') -- Basic configurations for fast adaption
 
--- #### Plugins that are used #### 
-require('config/config-lualine') -- Configuration file for LuaLine
-require('config/config-nvim-lspconfig') -- Configuration for LSP
+-- #### Plugin files that are used #### 
+-- Add files inside of the /config folder and list them here to enable them
+require('config/config-lualine') -- Lualine
+require('config/config-nvim-lspconfig') -- LSP
+require('config/config-telescop') -- Telescope 
+require('config/config-nvim-tree') -- Nvim Tree 

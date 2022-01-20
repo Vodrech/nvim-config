@@ -1,5 +1,13 @@
 ## This file describes the configurations that should be made
 
+Configurations for my nvim setup, could always be better ;(
+
+## Configuration
+
+Check the health of the environment with
+
+:checkhealth
+
 
 ## Packer configurations
 

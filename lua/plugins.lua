@@ -29,12 +29,17 @@ return require('packer').startup(function(use)
 
 	use{
 		'neoclide/coc.nvim',
-		branch = 'master',
+		branch = 'release',
 		run = 'yarn install --frozen-lockfile',
 		requires = {
 			{'dense-analysis/ale'},
 			{'neovim/nvim-lspconfig'}
 		}
+	} 
+
+	use {
+    		'kyazdani42/nvim-tree.lua',
+    		requires = {{'kyazdani42/nvim-web-devicons'}}
 	}
 
 	-- #### Unessasary / Cool stuff :D ####
