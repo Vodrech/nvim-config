@@ -1,0 +1,6 @@
+## Rust LSP support installation
+https://rust-analyzer.github.io/manual.html#installation
+
+1. Install the rust-analyzer binary to .config/lsp-config
+2.
+

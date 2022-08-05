@@ -39,7 +39,10 @@ require(configPath.. "options")
 require(configPath .. "keymaps")
 require(configPath .. "plugins")
 require(configPath .. "theme")
--- require(configPath .. "cmp")
+require(configPath .. "cmp")
+require(configPath .. "explore")
+require(configPath .. "autocmd")
+require(configPath .. "lsp")
 
 
 -- require('plugins') -- For Plugins in lua (Such as Packer)

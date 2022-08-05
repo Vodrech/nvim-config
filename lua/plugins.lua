@@ -16,9 +16,19 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+	-- StartPage
+	use {
+	    'goolord/alpha-nvim',
+	    config = function ()
+		require'alpha'.setup(require'alpha.themes.dashboard'.config)
+	    end
+	}
 	-- LEGENDARY TIER PLUGINS
-	use{
-		'neovim/nvim-lspconfig'
+	--
+	-- LSP SUPPORT & LSP Installer
+	use {
+	    "williamboman/nvim-lsp-installer",
+	    "neovim/nvim-lspconfig",
 	}
 
 	use {

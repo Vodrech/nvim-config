@@ -6,13 +6,17 @@ local function declare_options ()
 
 	-- TODO: find out what this does
 	vim.opt.shortmess:append "c"
-
+	
 	-- List of options
 	local options = {
 		mouse = "a",
 		cursorline = true,
 		termguicolors = true,
 		guifont = "monospace:h17", -- enables the emojis
+		number = true, -- enables row number
+		list = true,
+		listchars = "eol:↓,space:·,trail:●,tab:→⇥⇥,extends:>,precedes:<",
+		relativenumber = true
 	}
 	
 	-- Loop the option values/keys
