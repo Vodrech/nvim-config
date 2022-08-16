@@ -41,13 +41,11 @@ require(configPath .. "plugins")
 require(configPath .. "theme")
 require(configPath .. "cmp")
 require(configPath .. "explore")
-require(configPath .. "autocmd")
+require(configPath .. "." .. "auto_commands")
 require(configPath .. "lsp")
-
 
 -- require('plugins') -- For Plugins in lua (Such as Packer)
 -- require('setup') -- Special setups on Lua
 -- require('binds') -- Special bind on Lua
 -- require('stl') -- Special styles on Lua
 -- require('basic') -- Basic configurations for fast adaption
-

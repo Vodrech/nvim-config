@@ -27,10 +27,9 @@ return require('packer').startup(function(use)
 	--
 	-- LSP SUPPORT & LSP Installer
 	use {
-	    "williamboman/nvim-lsp-installer",
-	    "neovim/nvim-lspconfig",
+		"williamboman/nvim-lsp-installer",
+		"neovim/nvim-lspconfig",
 	}
-
 	use {
 		'nvim-treesitter/nvim-treesitter',
 		run = ':TSUpdate'

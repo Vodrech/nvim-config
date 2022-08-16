@@ -24,8 +24,7 @@ vim.g.mapleader = " "  -- global leader key
 vim.g.maplocalleader  = " " -- local leader key
 
 -- ======= Buffers/Tabs =======
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
-keymap("n", "<leader><TAB>", ":bnext<cr>", opts)
+keymap("n", "<c-TAB>", ":bnext<cr>", opts)
 keymap("n", "<TAB>", ":tabprev<cr>", opts)
 
 
@@ -34,6 +33,7 @@ keymap("n", "<TAB>", ":tabprev<cr>", opts)
 -- @Telescope
 keymap("n", "ff", ":Telescope find_files<cr>", opts)
 keymap("n", "fg", ":Telescope grep_string<cr>", opts)
+keymap("n", "fh", ":Telescope help_tags<cr>", opts) -- Telescope open help window
 
 -- @NvimTree 
-keymap("n", "fe", ":NvimTreeToggle<cr>", opts)
+keymap("n", "fe", ":NvimTreeFocus<cr>", opts)
