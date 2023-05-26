@@ -1,3 +1,5 @@
+#DEPRICATED
+
 ## This file describes the configurations that should be made
 
 Configurations for my nvim setup, could always be better ;(
